@@ -28,7 +28,7 @@ function exclude_post_id($cat){
 //!< 指定したカテゴリのみの前後記事リンクを返す
 //!< 引数
 //!< $cat : 表示したいカテゴリのID
-//!< $par : $catの親カテゴリが持つ子カテゴリを含めるかどうか。trueで含む。falseで含まない。
+//!< $par : 親カテゴリが持つ子カテゴリを含めるかどうか trueで含む
 function specific_cat_link($cat,$par){
 	
 	if($par === TRUE){
