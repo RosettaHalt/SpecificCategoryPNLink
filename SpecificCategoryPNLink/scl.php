@@ -8,11 +8,9 @@ Author: Rosetta
 Author URI: http://web.lugn-design.com/
 */
 
-//!< カテゴリIDを受け取りその親カテゴリと子カテゴリを返す
-function get_pc_id($cat){
-	$parent_id = $cat->category_parent;
-	$exclude_id = get_category_children($parent_id, "", ',');
-	$exclude_id .= $parent_id;
+//!< カテゴリIDを受け取りその親カテゴリを返す
+function get_parentID($cat){
+	return $cat->category_parent;
 }
 
 //!< カテゴリIDを受け取りそれを除外したカテゴリIDを返す
@@ -34,7 +32,9 @@ function exclude_post_id($cat){
 function specific_cat_link($cat,$par){
 	
 	if($par === TRUE){
-		$exclude_id = get_pc_id($cat);
+		$parent_id = get_parentID($cat);
+		$exclude_id = get_category_children($parent_id, "", ',');
+		$exclude_id .= $parent_id;
 	}
 	else{
 		$exclude_id = $cat;
