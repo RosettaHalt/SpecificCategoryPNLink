@@ -53,3 +53,7 @@ specific_cat_link関数で引数をfalseにした場合正常に動かなかっ�
 > If the second argument is true, the first argument is an array of categories.   <br />
 > If the second argument is false, the first argument is the ID of the category (s).   <br />
 > Please note it and move differently.
+
+> more detail. 
+> 詳しくはプラグインのページを参照
+> http://goo.gl/wbP2X

@@ -4,7 +4,7 @@ Plugin Name: Specific Category PN Link
 Plugin URI: http://web.lugn-design.com/wordpress/%E3%80%90wordpress%E3%80%91%E7%89%B9%E5%AE%9A%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA%E3%81%AE%E3%81%BF%E3%81%AE%E5%89%8D%E5%BE%8C%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%92%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B/
 Description: Write out the article about a specific category link. 標準で用意されていない記事の"特定カテゴリのみの前後リンク"を出力します。
 Version: 1.2
-Author: Rosetta
+Author: Halt
 Author URI: http://web.lugn-design.com/
 */
 
